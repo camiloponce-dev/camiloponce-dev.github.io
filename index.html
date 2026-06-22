@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Camilo Dev - Android Apps & Games</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:30px;
+    color:#2563eb;
+}
+
+.apps{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    transition:transform 0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 20px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
+
+.about{
+    margin-top:60px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.contact{
+    margin-top:30px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+footer{
+    margin-top:50px;
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Camilo Dev</h1>
+    <p>Android Apps & Games</p>
+</header>
+
+<div class="container">
+
+    <h2 class="section-title">Our Apps</h2>
+
+    <div class="apps">
+
+        <div class="card">
+            <h3>Animal Sounds by Example</h3>
+            <p>
+                Learn and enjoy animal sounds through fun and educational examples.
+                Perfect for children, families, and animal lovers.
+            </p>
+
+            <a class="btn"
+               href="https://play.google.com/store/apps/details?id=com.vj.animalsounds"
+               target="_blank">
+               Download on Google Play
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Saga Catch</h3>
+            <p>
+                A fun Android game where players catch items, improve scores,
+                and challenge themselves with exciting gameplay.
+            </p>
+
+            <a class="btn" href="#">
+                Coming Soon
+            </a>
+        </div>
+
+    </div>
+
+    <div class="about">
+        <h2>About Camilo Dev</h2>
+        <p>
+            Camilo Dev creates simple, fun, and useful Android applications.
+            Our goal is to build enjoyable mobile experiences for users of all ages.
+        </p>
+    </div>
+
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>Email: ponziocarlos2@gmail.com</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Camilo Dev. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
